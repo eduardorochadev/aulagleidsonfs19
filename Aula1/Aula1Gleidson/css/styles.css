@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sobre{
+    padding: 60px 0;
+    height: 100vh;
+    background-image: url("wave.svg"), url("wave2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom, top;
+    display: flex;
+    align-items: center;
+}
+
+#sobre .container{
+    padding: 0 120px;
+}
+
+#sobre h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 56px;
+}
+
+
+#sobre h2 + p{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sobre ul{
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#sobre ul li{
+    padding: 26px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #00000025;
+    background-color: white;
+}
+
+#sobre ul li .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #999999;
+    margin-bottom: 16px;
+}
+
+#sobre ul li h5{
+    font-size: 16px;
+}
+
+#depoimentos{
+    padding: 0 60px;
+}
+
+#depoimentos .container{
+    padding: 0 120px;
+}
+
+#depoimentos h2{
+    font-size: 48px;
+    text-align: center;
+}
+
+#depoimentos ul{
+    display: flex;
+    gap: 50px;
+}
+
+#depoimentos ul li{
+    padding: 26px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #00000030;
+}
